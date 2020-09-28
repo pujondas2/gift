@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="gift">
+        <img src="gift.jpg" id="gift_img" alt="">
+        <img src="p.jpg" id="piyaju" alt="">
+    </div>
+
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#gift_img").click(function () {
+                $("#gift_img").hide();
+                $("#piyaju").show(2000);
+            })
+        })
+    </script>
+
+</body>
+
+</html>
